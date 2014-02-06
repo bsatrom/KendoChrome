@@ -1,0 +1,27 @@
+{
+  "name": "Kendo Chrome",
+  "description": "A Sample Chrome App",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "version": "0.1.1",
+  "offline_enabled": true,
+  "icons": {
+    "16": "img/icons/icon16.png",
+    "36": "img/icons/icon36.png",
+    "48": "img/icons/icon48.png",
+    "57": "img/icons/icon57.png",
+    "72": "img/icons/icon72.png",
+    "96": "img/icons/icon96.png",
+    "114": "img/icons/icon114.png",
+    "128": "img/icons/icon128.png",
+    "144": "img/icons/icon144.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "permissions": [
+    "<all_urls>"
+  ]
+}
